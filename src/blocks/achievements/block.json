@@ -1,0 +1,12 @@
+{
+  "name": "achievements",
+  "layer": 4,
+  "uses": [
+    "incident-archive",
+    "run",
+    "par-and-score",
+    "repair-orders",
+    "orders",
+    "campaign"
+  ]
+}

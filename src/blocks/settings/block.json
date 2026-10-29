@@ -1,0 +1,11 @@
+{
+  "name": "settings",
+  "layer": 5,
+  "uses": [
+    "achievements",
+    "campaign",
+    "incident-archive",
+    "saving",
+    "wiring-board"
+  ]
+}

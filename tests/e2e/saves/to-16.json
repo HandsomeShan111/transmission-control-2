@@ -1,0 +1,83 @@
+{
+ "runs": [
+  {
+   "order": 1,
+   "wiring": "IN → World Council"
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR; LAMINATOR → World Council"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → SHREDDER; LAMINATOR → Parade Control; SHREDDER → LAMINATOR"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER 1; INSPECTOR plus → LAMINATOR; LAMINATOR → Embassy; SHREDDER 1 → INSPECTOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → LAMINATOR 1; LAMINATOR 1 → Archive; SHREDDER → INSPECTOR"
+  },
+  {
+   "order": 5,
+   "wiring": "IN → LAMINATOR 1; LAMINATOR 1 → INSPECTOR; INSPECTOR minus → Museum; INSPECTOR plus → Archive"
+  },
+  {
+   "order": 6,
+   "wiring": "IN → CENSOR; CENSOR minus → TRANSLATOR; CENSOR plus → Senate Archive; TRANSLATOR → Senate Archive"
+  },
+  {
+   "order": 7,
+   "wiring": "IN → CENSOR; CENSOR minus → TRANSLATOR 1; CENSOR plus → TRANSLATOR 2; TRANSLATOR 1 → CENSOR; TRANSLATOR 2 → Radio Tower"
+  },
+  {
+   "order": 8,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → Canteen; INSPECTOR plus → CENSOR; CENSOR minus → TRANSLATOR; CENSOR plus → LAMINATOR; TRANSLATOR → LAMINATOR; LAMINATOR → Senate"
+  },
+  {
+   "order": 9,
+   "wiring": "IN → CENSOR; CENSOR minus → INSPECTOR; CENSOR plus → LAMINATOR 1; INSPECTOR minus → LAMINATOR 1; INSPECTOR plus → SUMMARIZER; SUMMARIZER → TRANSLATOR; TRANSLATOR → CENSOR; LAMINATOR 1 → Colonies"
+  },
+  {
+   "order": 10,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → CENSOR; CENSOR minus → TRANSLATOR; CENSOR plus → Senate; SHREDDER → TRANSLATOR; TRANSLATOR → Senate"
+  },
+  {
+   "order": 11,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → Canteen; INSPECTOR plus → LAMINATOR; LAMINATOR → Archive"
+  },
+  {
+   "order": 12,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → BAKER; INSPECTOR plus → LAMINATOR; LAMINATOR → Archive; BAKER → Canteen"
+  },
+  {
+   "order": 13,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SLICER; INSPECTOR plus → LAMINATOR; SLICER item → Canteen; SLICER copy → LAMINATOR; LAMINATOR → Embassy"
+  },
+  {
+   "order": 14,
+   "wiring": "IN → TASTER; TASTER minus → BAKER; TASTER plus → SLICER 1; SLICER 1 item → Moon Base; SLICER 1 copy → Moon Base; BAKER → TASTER"
+  },
+  {
+   "order": 15,
+   "wiring": "IN → TASTER; INSPECTOR minus → BAKER; INSPECTOR plus → LAMINATOR; TASTER minus → INSPECTOR; TASTER plus → SLICER; LAMINATOR → Banquet; BAKER → Banquet; SLICER item → Banquet; SLICER copy → Banquet"
+  },
+  {
+   "order": 16,
+   "wiring": "IN → GAUGE; GAUGE minus → SHREDDER; GAUGE plus → Hangar; SHREDDER → COMPACTOR; COMPACTOR → Hangar"
+  }
+ ],
+ "memos": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "debriefs": [
+  1,
+  2,
+  3
+ ]
+}

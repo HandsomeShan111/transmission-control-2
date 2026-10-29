@@ -1,0 +1,8 @@
+{
+  "name": "wires",
+  "layer": 1,
+  "uses": [
+    "agents",
+    "orders"
+  ]
+}

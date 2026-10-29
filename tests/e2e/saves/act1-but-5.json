@@ -1,0 +1,27 @@
+{
+ "runs": [
+  {
+   "order": 1,
+   "wiring": "IN → World Council"
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR; LAMINATOR → World Council"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → SHREDDER; LAMINATOR → Parade Control; SHREDDER → LAMINATOR"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER 1; INSPECTOR plus → LAMINATOR; LAMINATOR → Embassy; SHREDDER 1 → INSPECTOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → LAMINATOR 1; LAMINATOR 1 → Archive; SHREDDER → INSPECTOR"
+  }
+ ],
+ "memos": [
+  1
+ ]
+}

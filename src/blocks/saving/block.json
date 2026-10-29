@@ -1,0 +1,15 @@
+{
+  "name": "saving",
+  "layer": 5,
+  "uses": [
+    "campaign",
+    "par-and-score",
+    "incident-archive",
+    "achievements",
+    "wires",
+    "reports",
+    "offline-play",
+    "repair-orders",
+    "orders"
+  ]
+}

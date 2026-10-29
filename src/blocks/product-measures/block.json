@@ -1,0 +1,10 @@
+{
+  "name": "product-measures",
+  "layer": 6,
+  "uses": [
+    "campaign",
+    "offline-play",
+    "orders",
+    "saving"
+  ]
+}

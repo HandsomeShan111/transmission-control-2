@@ -1,0 +1,13 @@
+{
+  "name": "incident-archive",
+  "layer": 3,
+  "uses": [
+    "agents",
+    "items",
+    "orders",
+    "repair-orders",
+    "reports",
+    "run",
+    "wires"
+  ]
+}

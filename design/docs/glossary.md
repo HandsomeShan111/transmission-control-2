@@ -1,0 +1,83 @@
+# Glossary
+
+Each term links to its owner. Values and rules live there, never here.
+Use these spellings exactly in code, data and documents.
+
+## Game
+
+- **Transmission Control 2**: the official game name.
+- **Mission Control**: the player's workplace and team. See [Fantasy](vision.md#fantasy).
+- **First release**, **Later**: system map tags. See [How to read](system-map.md#how-to-read).
+- **Agent**: a literal-minded machine on the wiring board, with an input jack and output jacks. See [Agents](board/agents.md).
+- **Worker**, **copier**: an agent that adds its mark and sends the item on; a copier also makes a copy. See [AGENT-01](board/agents.md#agent-01-face).
+- **Jack**: an agent's input or output, or the input terminal's output, where a wire plugs in. **Plus jack**, **minus jack**: a checking agent's two outputs. See [AGENT-01](board/agents.md#agent-01-face).
+- **Data wire**, **feedback wire**: the two wire kinds, each joining an output jack to an input jack or an output terminal. See [WIRE-01](board/wires.md#wire-01-wire-kinds).
+- **Workflow**: the agents of one order and the wires between them. See [Pitch](vision.md#pitch).
+- **Order**: one level: an absurd urgent task, its input and its required output. "Level" only in the director's words. See [Pitch](vision.md#pitch).
+- **Repair order**: an order that opens already wired and already failing. See [Pitch](vision.md#pitch).
+- **Run**: playing the workflow, items flowing agent to agent. See [Run](board/run.md).
+- **Beat**: one step of a run; **run time**, a run's length in beats. See [RUN-02](board/run.md#run-02-beat).
+- **Item**: one thing flowing along a wire, carrying its history. See [Items](board/items.md).
+- **First kind**: an item's kind as it entered the board. See [ITEM-01](board/items.md#item-01-enter).
+- **Required output**: what one item must become: a destination, a kind and marks. See [ITEM-01](board/items.md#item-01-enter).
+- **Wiring**: the wires a player has placed in one order. See [Pitch](vision.md#pitch).
+- **Wiring board**: where an order's agents sit and wires are placed; it pans and zooms. See [Wiring board](board/wiring-board.md).
+- **Input terminal**, **output terminal**: where the batch enters the board, and where items are delivered, one output terminal per destination. See [BOARD-01](board/wiring-board.md#board-01-open).
+- **Destination**: the recipient an output terminal delivers to. See [BOARD-01](board/wiring-board.md#board-01-open).
+- **Move**: one wire cut, moved or added, in a repair order. See [Pitch](vision.md#pitch).
+- **Checking agent**: an agent that gives each item a verdict. See [AGENT-03](board/agents.md#agent-03-check).
+- **Mark**: what an agent adds to an item; an item's marks are its history. See [ITEM-02](board/items.md#item-02-marks).
+- **Label plate**: the part of an agent's face that wires pass under: name, rule, mark, PassLimit label and lamp. See [WIRE-01](board/wires.md#wire-01-wire-kinds).
+- **Copy**: an item a copier makes, numbered within its batch item. See [ITEM-03](board/items.md#item-03-copies).
+- **Rejected**: an item a checking agent stops checking past its pass limit. See [RUN-05](board/run.md#run-05-reject).
+- **Locked**: the board from the run switch until the report closes, taking no wiring, pan or zoom. See [BOARD-04](board/wiring-board.md#board-04-run-switch).
+- **Pass limit**: how many times a checking agent checks one item before it rejects it; shown on its face. See [AGENT-05](board/agents.md#agent-05-pass-limit).
+- **Authored line**: written text for what one agent does to one item kind; reports compose them. See [Data](data.md#authored-lines).
+- **Result line**, **first difference**: a report's line for what a destination received, and where an item first went wrong. See [Reports](board/reports.md).
+- **Hand-written result**: written text for one likely wrong wiring of one order, given when one batch item, or a copy of it, ends as that wiring sends it; **item ending**, that end. See [REPORT-01](board/reports.md#report-01-form-and-lead).
+- **Par**: an order's targets, one for wires and one for run time. **Par lamp**: one per par, lit once it is met. See [Par and score](board/par-and-score.md).
+- **Batch**: an order's input: several different items, all served by one wiring. See [Pitch](vision.md#pitch).
+- **Verdict**: a checking agent's plus or minus judgment of an item, sending it by that jack. See [AGENT-03](board/agents.md#agent-03-check).
+- **Mission report**: the report of a won run. See [REPORT-01](board/reports.md#report-01-form-and-lead).
+- **Save code**: text that carries a player's progress to another browser. See [SAVE-02](platform/saving.md#save-02-copy-out).
+- **Save**: the progress this browser keeps, which the save code carries. See [SAVE-01](platform/saving.md#save-01-keep).
+- **Event**: one anonymous message the game sends, an order's start or finish. See [MEAS-03](product/measures.md#meas-03-send).
+- **Event flag**: this browser's mark that an order's start or finish event is made. See [MEAS-04](product/measures.md#meas-04-event-flags).
+- **Event store**: this browser's event flags and queue of events, beside its save. See [MEAS-04](product/measures.md#meas-04-event-flags).
+- **Event lock**: the lock a page holds while it changes the event store. See [MEAS-04](product/measures.md#meas-04-event-flags).
+- **Send lock**: the lock a page holds while it sends queued events. See [MEAS-03](product/measures.md#meas-03-send).
+- **Kept wiring**: the wiring this browser keeps for an order, which the order opens on. See [SAVE-01](platform/saving.md#save-01-keep).
+- **Act**: one session's group of orders. See [Pitch](vision.md#pitch).
+- **Incident report**, **incident archive**: the written result of a wrong run, and the collection of them. See [Fantasy](vision.md#fantasy).
+- **Debrief**: the teletype printout that ends an act. See [CAMPAIGN-04](campaign/campaign.md#campaign-04-act-end).
+- **Memo**: the teletype printout that starts an act, naming its family and agents. See [CAMPAIGN-03](campaign/campaign.md#campaign-03-act-start).
+- **Filed**: a report the incident archive holds; a hand-written result is filed, and found, once a report it leads is filed. See [ARCHIVE-01](campaign/incident-archive.md#archive-01-file).
+- **Commendation**: the teletype line of an earned achievement. See [ACHIEVE-02](campaign/achievements.md#achieve-02-show).
+- **Opening misfire**: the night staff's wiring of order 1, run at a new game's first tap. See [CAMPAIGN-01](campaign/campaign.md#campaign-01-opening-misfire).
+- **Second-wiring lamp**: an order's lamp, lit once two of its wins count as different. See [CAMPAIGN-05](campaign/campaign.md#campaign-05-order-list).
+- **Unlocked**: an order the player may open. See [CAMPAIGN-02](campaign/campaign.md#campaign-02-unlock).
+- **Fingerprint**: a short value computed from an order's data, kept with its filed reports and kept wiring, so a later version sees a changed order. See [SAVE-05](platform/saving.md#save-05-version).
+- **New game**: the state the opening misfire starts from. See [CAMPAIGN-01](campaign/campaign.md#campaign-01-opening-misfire).
+- **Order list**: each act's unlocked orders, with lamps and results found. See [CAMPAIGN-05](campaign/campaign.md#campaign-05-order-list).
+- **Unneeded agent**: an agent an order holds beyond what a win needs. See [UnneededAgents](orders/orders.md#parameters).
+- **Numbered twin**: one of two or more agents of one name on a board, numbered. See [AGENT-01](board/agents.md#agent-01-face).
+- **Known winning wiring**: a wiring known to win its order. See [PAR-01](board/par-and-score.md#par-01-setting-par).
+- **Second wiring**: a known winning wiring that counts as different from another win. See [ORDER-05](orders/orders.md#order-05-second-wirings).
+- **Achievement**: a record of a solution the player found, wrong or right. See [Pitch](vision.md#pitch).
+- **Master alarm lamp**: the console's largest lamp and its one red thing. See [ART-06](art-direction.md#art-06-master-alarm).
+- **Opening framing**: the view an order opens on: framed whole, or at the zoom floor on its input terminal. See [BOARD-01](board/wiring-board.md#board-01-open).
+- **Last framing**: the view on the output terminals and the master alarm lamp once every item has ended; under the zoom floor, on the lamp and the first terminal. See [VIEW-02](board/run-view.md#view-02-follow).
+- **Full alarm**: the lit master alarm lamp, its tone, and the silence before an incident report. See [VIEW-04](board/run-view.md#view-04-full-alarm).
+- **Silhouette**: the outline every agent of a family shares. See [ART-09](art-direction-objects.md#art-09-agent-faces).
+- **Mark tile**: the drawn form of a mark. See [ART-11](art-direction-objects.md#art-11-mark-tiles).
+- **Double strike**: a teletype line drawn twice, the second slightly offset. See [ART-12](art-direction-objects.md#art-12-teletype-paper).
+- **Trace**: the dimmed line a wire shows on a label plate it passes under. See [ART-08](art-direction.md#art-08-wires).
+- **Teletype bell**: the one bell of the teletype. See [ART-24](art-direction-sound.md#art-24-bell).
+- **Seat ring**: the ring that grows from a jack as a wire is placed on it. See [FEEL-02](feel.md#feel-02-plug-or-move-a-wire).
+- **Plus colour, minus colour**: the colours a plus verdict and a minus verdict wear. See [ART-13](art-direction.md#art-13-verdict-colour-and-sign).
+- **Sign**: the plus or minus drawn with a verdict, a feedback wire or a result. See [ART-13](art-direction.md#art-13-verdict-colour-and-sign).
+- **Console frame**: the Graphite frame of every screen, with its two bars and its window. See [Console frame](ui/style.md#console-frame).
+- **Order bar**, **control bar**: the frame's bar for the screen's title or order, and its bar of plates and switches. See [Console frame](ui/style.md#console-frame).
+- **Window**: the room between the bars, where the board or a list shows. See [Console frame](ui/style.md#console-frame).
+- **Plate**: a labelled control on the frame or on a printout. Not the label plate of a face. See [Plate](ui/style.md#plate).
+- **Printout**: teletype paper over the window: a report, memo, debrief, save code or line. See [Printout](ui/style.md#printout).

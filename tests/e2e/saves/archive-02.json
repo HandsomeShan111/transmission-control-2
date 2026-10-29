@@ -1,0 +1,46 @@
+{
+ "runs": [
+  {
+   "order": 1,
+   "wiring": "IN → World Council"
+  },
+  {
+   "order": 1,
+   "wiring": ""
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR"
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR; LAMINATOR → World Council"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → SHREDDER; LAMINATOR → Parade Control; SHREDDER → LAMINATOR"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER 1; INSPECTOR plus → LAMINATOR; LAMINATOR → Embassy; SHREDDER 1 → INSPECTOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → LAMINATOR 1; LAMINATOR 1 → Archive; SHREDDER → INSPECTOR"
+  },
+  {
+   "order": 5,
+   "wiring": "IN → LAMINATOR 1; LAMINATOR 1 → INSPECTOR; INSPECTOR minus → Museum; INSPECTOR plus → Archive"
+  },
+  {
+   "order": 5,
+   "wiring": "IN → INSPECTOR; LAMINATOR 1 → Archive; LAMINATOR 2 → Museum; INSPECTOR minus → LAMINATOR 2; INSPECTOR plus → LAMINATOR 1"
+  }
+ ],
+ "memos": [
+  1
+ ],
+ "debriefs": [
+  1
+ ]
+}

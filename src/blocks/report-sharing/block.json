@@ -1,0 +1,16 @@
+{
+  "name": "report-sharing",
+  "layer": 4,
+  "uses": [
+    "agents",
+    "campaign",
+    "incident-archive",
+    "items",
+    "offline-play",
+    "orders",
+    "reports",
+    "run",
+    "wires",
+    "wiring-board"
+  ]
+}

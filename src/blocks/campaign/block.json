@@ -1,0 +1,15 @@
+{
+  "name": "campaign",
+  "layer": 3,
+  "uses": [
+    "orders",
+    "wiring-board",
+    "run",
+    "par-and-score",
+    "repair-orders",
+    "incident-archive",
+    "reports",
+    "agents",
+    "wires"
+  ]
+}

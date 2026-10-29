@@ -1,0 +1,87 @@
+{
+ "runs": [
+  {
+   "order": 1,
+   "wiring": "IN → World Council"
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR; LAMINATOR → World Council"
+  },
+  {
+   "order": 1,
+   "wiring": "IN → LAMINATOR"
+  },
+  {
+   "order": 1,
+   "wiring": ""
+  },
+  {
+   "order": 2,
+   "wiring": "IN → LAMINATOR; LAMINATOR → SHREDDER; SHREDDER → Parade Control"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → LAMINATOR; LAMINATOR → Parade Control"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → SHREDDER; SHREDDER → SHREDDER"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → LAMINATOR; LAMINATOR → Embassy"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → SHREDDER 1; SHREDDER 1 → LAMINATOR; LAMINATOR → Embassy"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → LAMINATOR 1; LAMINATOR 1 → Archive"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → LAMINATOR 1; LAMINATOR 1 → SHREDDER; SHREDDER → Archive"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → SHREDDER; SHREDDER → LAMINATOR 1; LAMINATOR 1 → Archive"
+  },
+  {
+   "order": 5,
+   "wiring": "IN → LAMINATOR 1; LAMINATOR 1 → Archive"
+  },
+  {
+   "order": 5,
+   "wiring": "IN → Museum"
+  },
+  {
+   "order": 2,
+   "wiring": "IN → SHREDDER; LAMINATOR → Parade Control; SHREDDER → LAMINATOR"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER 1; INSPECTOR plus → LAMINATOR; LAMINATOR → Embassy; SHREDDER 1 → INSPECTOR"
+  },
+  {
+   "order": 3,
+   "wiring": "IN → INSPECTOR; INSPECTOR plus → LAMINATOR; INSPECTOR minus → SHREDDER 1; LAMINATOR → Embassy; SHREDDER 1 → LAMINATOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → LAMINATOR 1; LAMINATOR 1 → Archive; SHREDDER → INSPECTOR"
+  },
+  {
+   "order": 4,
+   "wiring": "IN → INSPECTOR; INSPECTOR minus → SHREDDER; INSPECTOR plus → LAMINATOR 1; LAMINATOR 1 → Archive; SHREDDER → LAMINATOR 2; LAMINATOR 2 → Archive"
+  }
+ ],
+ "memos": [
+  1
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "repair-orders",
+  "layer": 2,
+  "uses": [
+    "orders",
+    "wires",
+    "wiring-board",
+    "run",
+    "reports",
+    "par-and-score"
+  ]
+}

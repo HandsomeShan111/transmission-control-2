@@ -1,0 +1,14 @@
+{
+  "name": "wiring-board",
+  "layer": 1,
+  "uses": [
+    "orders",
+    "agents",
+    "items",
+    "wires",
+    "run",
+    "run-view",
+    "par-and-score",
+    "reports"
+  ]
+}

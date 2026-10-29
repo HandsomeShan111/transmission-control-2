@@ -1,0 +1,22 @@
+{
+  "name": "transmission-control-2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "bun scripts/extract-data.ts",
+    "check": "tsc --noEmit -p .",
+    "test": "bun test src scripts",
+    "build": "bun scripts/build.ts",
+    "build:test": "bun scripts/build.ts --test",
+    "serve": "bun scripts/serve.ts",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/bun": "1.4.4",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "agents",
+  "layer": 1,
+  "uses": [
+    "items"
+  ]
+}

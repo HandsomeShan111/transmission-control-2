@@ -1,0 +1,11 @@
+{
+  "name": "reports",
+  "layer": 1,
+  "uses": [
+    "orders",
+    "agents",
+    "items",
+    "run",
+    "par-and-score"
+  ]
+}
